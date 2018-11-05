@@ -1,11 +1,35 @@
-# Core skills program - week 8 - Process predictions and optimisation over time
+# Core skills program - week 8 - Machine Learning Sandbox
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/08-time-network-analysis.git/master)
 
- The aim of today's session will be to ... **todo**: fill this out with aims <!-- generalize the concepts for unidimensional data we learnt about last week to multidimensional data types, including ideas like central tendency, dispersion and correlations. We'll also introduce approaches to reduce the dimensionality of a dataset - that is (a) how we can identify when a dataset can be represented accurately with a smaller number of variables, and (b) how we can identify the variables that contain the most information, with techniques like PCA/PLS, MDS, SOFM and clustering. -->
+Today is our hands-on a machine learning project! Hopefully you brought some interesting datasets you would like to work with. If not, we are providing a Petrophysical dataset (check the data folder for a description) and proposing some questions to be investigated with this data. 
 
-You should aim to understand ... **todo** fill this out with learning outcomes<!-- the similarities and differences between univariate and multivariate data settings (you'll still need to be able to an EDA on multivatiate data for example). You should also aim to understand the basis of dimensionality reductions, execute measures of correlations, as well as understanding when correlations might be spurious. -->
+We have several aims for today's session. We hope it will help you to have a clear picture of the main steps when developing a data science with machine learning project. More specifically, our aims for today are:
+
+- Review data science and ML landscape and techniques
+- Planning a ML data science project for your data
+-  Learn to address data science questions:
+	- How to frame the problem?  What are the questions I want to address with my data?
+	- How to identify problems with the data: what are the data cleaning stages that I will have to do? 
+	- How could I explore the data? How can I visualize my data to search for correlations?
+	- How can I prepare my data for the ML algorithms?
+	- What are meaningful evaluation metrics that I can apply?
+
+- Once your data is prepared for the ML algorithms, you will need to think about further aspects of the project, for instance:
+	- The type of ML technique to be used.
+	- The task to be applied (for instance, classification, regression)
+	- The evaluation and validation criteria to have your model accurately addressing the the questions I raised before.
+ 
+We will use all the notebooks used in the previous weeks so that you can start your hands-on straight away! Have fun! 
 
 ## Pre-session Reading & Resources
 
-**Todo:** add pre-session reading and resources (and _why_ you might like to read them - see [week two's README](https://github.com/core-skills/02-getting-to-know-the-tools/blob/master/README.md) as an example)
+We will be using Scikit-learn, Keras and TensorFlow. You can find the documentation of  Scikit-learn [here](http://scikit-learn.org/stable/). You can have a reading about Keras [here](https://keras.io). TensorFlow is an optimised library in python for dealing with tensors (for instance, weigh matrices in a neural network). TensorFlow documentation can be found [here](https://www.tensorflow.org). 
+
+We will continue to use the book "Hands-on Machine Learning with Scikit-learn and Tensorflow" as the main reference. The collection of python notebooks related to the book with all the python implementations can be found [here](https://github.com/ageron/handson-ml.) They can be handy today!!  
+
+Stack Overflow is a useful website to find solutions for when you get stuck with python and/or scikit-learn/keras/tensorflow: https://stackoverflow.com/questions/tagged/scikit-learn, https://stackoverflow.com/questions/tagged/keras, https://stackoverflow.com/questions/tagged/tensorflow. 
+
+**Have a look at this flowchart from Scikit-learn!!** 
+
+[This flowchart](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) from Scikit-learn documentation gives you tips about how to find the right estimator for your problems, based on some questions about the data. You should have a look at it before starting your project!
