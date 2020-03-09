@@ -1,4 +1,4 @@
-# Core skills program - week 8 - Machine Learning Sandbox
+# CORE Skills Data Science Springboard - Day 10
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/08-time-network-analysis.git/master)
 
