@@ -1,0 +1,6 @@
+## macOS folder attributes file
+*.DS_Store
+.ipynb_checkpoints
+
+## folder with the solved notebooks
+solved_notebooks_hidden/
